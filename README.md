@@ -87,9 +87,8 @@ rmdir test3
 
 -    Create simple script which prints current date. Try to execute it.
 
-```console
-wsefr
-```
+[Script](https://github.com/Vadyamba/test_ggs/blob/main/date.sh)
+
 
 ## Log checking
 
