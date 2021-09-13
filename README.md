@@ -94,14 +94,26 @@ rmdir test3
 
 -  Count lines in the file test.txt.
 
+```console
+wc -l test.txt
+```
 
 - Show last 3 lines from the test.txt file. 
 
+```console
+tail -3 test.txt
+```
 
 -  Hom many uniq IP addresses accessed the website ? 
 
+```console
+awk '{print $1}' test.txt | sort | uniq |  wc -l
+```
 
 -  IP address with most requests.
+
+```console
+awk '{print $1}' text.txt | sort | 
 
 
 -  Top 3 IP addresses by amount of POST requests.
