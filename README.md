@@ -58,20 +58,38 @@ echo "test2" >> test1/test1.txt
 -    print the text from the test1/test1.txt file.
 
 ```console
-wdwd
+less test1/test1.txt
 ```
 
+
 - check the size of test1 directory
+
+```console
+du -sh test_ggc
+```
 
 ## Permissions
 
 -   Create test directory and block access for all to it.
 
+```console
+mkdir test3
+chmod 000 test3
+```
+
+
 -   Try to remove that directory.
+
+```console
+rmdir test3
+```
 
 
 -    Create simple script which prints current date. Try to execute it.
 
+```console
+wsefr
+```
 
 ## Log checking
 
