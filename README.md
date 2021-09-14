@@ -113,10 +113,15 @@ awk '{print $1}' test.txt | sort | uniq |  wc -l
 -  IP address with most requests.
 
 ```console
-awk '{print $1}' text.txt | sort | 
+awk '{print $1}' text.txt | sort | uniq -c | sort -nr | head -n 1
+``` 
 
 
 -  Top 3 IP addresses by amount of POST requests.
+
+```console 
+
+```
 
 
 -  Which IP addresses received 403 error ? 
