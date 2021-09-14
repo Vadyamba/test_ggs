@@ -133,6 +133,7 @@ grep ' 403 ' test.txt | awk '{print $1}'
 
 - Task with * . Write script to show which pages Google checked from the website 
 
+[Script](https://github.com/Vadyamba/test_ggs/blob/main/google.sh)
 ## Replace
 
 Replace IP address with most requests on 127.0.0.1 in test.txt file
